@@ -30,4 +30,4 @@ ssh -i "terra-udemy.pem" ec2-user@ec2-3-239-201-90.compute-1.amazonaws.com
 sudo su -
 cat /var/www/html/index.html
 ```
-3. Also, browse http://public-ip-of-ec2-instance and check if the html text is rendered
+3. Also, browse public ip of the ec2 instance and check if the html text is rendered
