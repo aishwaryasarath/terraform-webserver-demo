@@ -10,7 +10,7 @@ terraform {
 
 resource "aws_security_group" "Webserver-demo" {
   name        = "Webserver-demo"
-  description = "Allow ssh & http traffic"
+  description = "Allow ssh, https & http traffic"
 
 
   ingress {
