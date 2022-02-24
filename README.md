@@ -1,7 +1,7 @@
 # Terraform webserver demo
 Create a web server using terraform
 
-## Create and apply the terraform file to create the instance 
+## Create and apply the terraform file to create the instance and install/start apache
 1. Create a terraform file to create the aws instance and give the bash script to install the http server after the instance is created
 ``` # tbd: create bootstrap script
 
